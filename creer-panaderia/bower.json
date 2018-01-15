@@ -1,10 +1,11 @@
 {
-  "name": "creer",
-  "description": "Proyect for my cousin's bakery",
+  "name": "creer-panaderia",
+  "description": "Sistema para la panadería de Jose de Lajonquiere",
   "main": "index.html",
   "keywords": [
     "creer",
-    "creerbakery"
+    "creer-bakery",
+	"creer-panaderia"
   ],
   "authors": [
     "lcosta"

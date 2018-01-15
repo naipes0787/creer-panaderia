@@ -1,0 +1,20 @@
+{
+  "name": "creer-panaderia",
+  "description": "Sistema para la panadería de Jose de Lajonquiere",
+  "version": "1.0.0",
+  "main": "index.html",
+  "private": true,
+  "author": "Leandro Costa",
+  "licence": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://naipes0787@github.com/naipes0787/creer-panaderia"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+	"bower": "1.8.2"
+  },
+  "scripts": {    
+    "dev": "lite-server"
+  }
+}
