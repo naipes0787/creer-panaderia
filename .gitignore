@@ -1,7 +1,7 @@
 # Packages folder #
 ###################
-bower_components/*
 creer-panaderia/bower_components/*
+creer-panaderia/node_modules/*
 
 # OS generated files #
 ######################
