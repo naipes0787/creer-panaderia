@@ -1,3 +1,10 @@
+/******** GLOBAL ********/
+body {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  font-family: 'PT Sans', sans-serif;
+}
 .row-header {
   margin: 0px auto;
   padding: 0px 0px;
@@ -10,7 +17,7 @@
 }
 .row-footer {
   margin: 0px auto;
-  padding: 20px 0px;
+  padding: 10px 0px;
   background-color: #AfAfAf;
 }
 .jumbotron {
@@ -19,6 +26,24 @@
   background: #7986CB;
   color: floralwhite;
 }
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+.affix {
+  top: 100px;
+}
+/******** FIN GLOBAL ********/
+
+/******** HEADER ********/
+.btn-pedir {
+    width: 170%;
+}
+/******** FIN HEADER ********/
+
+/******** CAROUSEL ********/
 .carousel {
   background: #1a237e;
 }
@@ -31,6 +56,18 @@
   position: absolute;
   top: 0;
 }
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+div.carousel img{
+  width: 35%;
+  height: 100%!important;
+}
+/******** FIN CAROUSEL ********/
+
+/******** NAVBAR ********/
 .navbar-inverse {
   background: #303f9f;
   color: #ffffff;
@@ -70,27 +107,110 @@
   background-color: #303f9f;
   color: #eeeeee;
 }
+/******** FIN NAVBAR ********/
+
+/******** MAIN BODY ********/
+div.media-imagenes img{
+	width: 300px;
+	height: 250px;
+  filter: gray;
+  -webkit-filter: grayscale(0.7);
+  -webkit-transition: all .5s ease-in-out;
+}
+
+div.media-imagenes img:hover{
+	width: 300px;
+	height: 250px;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.1);
+  transform: rotate(5deg);
+}
+
+.label{
+  font-size: 70%;
+}
+/******** FIN MAIN BODY ********/
+
+/******** CONTACTO ********/
+div.contact-class h6{
+  font-weight: bold;
+  font-size: 0.9em;
+}
+/******** FIN CONTACTO ********/
+
+/******** FOOTER ********/
 address {
   color: #0f0f0f;
   font-size: 80%;
   margin: 0px;
 }
-body {
-  align: center;
-  padding: 50px 0px 0px 0px;
-  z-index: 0;
+div.site-footer h5{
+	font-weight: bold;
+	font-size: 1.2em;
 }
-.tab-content {
-  border-bottom: 1px solid #dddddd;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  padding: 10px;
+div.site-footer a{
+	text-decoration: none;
 }
-.affix {
-  top: 100px;
+a.develop_by{
+	font-weight: bold;
+	text-decoration: none;
 }
-#carouselButtons {
-  bottom: 0px;
-  position: absolute;
-  right: 0px;
+/******** FIN FOOTER ********/
+
+/******** DISPOSITIVOS ********/
+/* NOTEBOOK */
+@media only screen and (max-width:1024px){
+  .label{
+    font-size: 55%;
+  }
+  div.carousel img{
+    min-width: 50%;
+    min-height: 50%;
+  }
 }
+/* TABLET */
+@media only screen and (max-width:768px){
+  div.carousel img{
+    min-width: 70%;
+  }
+  div.media-imagenes img{
+  	width: 150px;
+  	height: 125px;
+  }
+  div.media-imagenes img:hover{
+    width: 150px;
+  	height: 125px;
+  }
+  .btn-pedir {
+      width: 100%;
+  }
+  .label{
+    font-size: 50%;
+  }
+}
+/* CELULAR */
+@media only screen and (max-width:480px){
+  div.media-imagenes img{
+  	width: 100px;
+  	height: 75px;
+  }
+  div.media-imagenes img:hover{
+    width: 100px;
+  	height: 75px;
+  }
+  div.carousel img{
+    min-width: 100%;
+    min-height: 70%!important;
+    height: 70%!important;
+  }
+  h2.media-heading{
+    font-size: 18px;
+  }
+  h4.media-subheading{
+    font-size: 14px;
+  }
+  div.media-body p{
+    font-size: 12px;
+  }
+}
+/******** FIN DISPOSITIVOS ********/
