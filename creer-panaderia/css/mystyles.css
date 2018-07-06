@@ -109,8 +109,8 @@ div.carousel img{
 }
 /******** FIN NAVBAR ********/
 
-/******** MAIN BODY ********/
-div.media-imagenes img{
+/******** INDEX BODY ********/
+div.media-images img{
 	width: 300px;
 	height: 250px;
   filter: gray;
@@ -118,7 +118,7 @@ div.media-imagenes img{
   -webkit-transition: all .5s ease-in-out;
 }
 
-div.media-imagenes img:hover{
+div.media-images img:hover{
 	width: 300px;
 	height: 250px;
   -webkit-filter: grayscale(0);
@@ -129,7 +129,21 @@ div.media-imagenes img:hover{
 .label{
   font-size: 70%;
 }
-/******** FIN MAIN BODY ********/
+/******** FIN INDEX BODY ********/
+
+/******** MODAL PEDIDO ********/
+.has-feedback .form-control{
+  padding-right: 28px;
+}
+
+select.select-good-looking{
+  padding: 5px;
+  width: 12%;
+  border-width: 3px;
+  border-color: #7986CB;
+  border-radius: 15px;
+}
+/******** FIN MODAL PEDIDO ********/
 
 /******** CONTACTO ********/
 div.contact-class h6{
@@ -173,11 +187,11 @@ a.develop_by{
   div.carousel img{
     min-width: 70%;
   }
-  div.media-imagenes img{
+  div.media-images img{
   	width: 150px;
   	height: 125px;
   }
-  div.media-imagenes img:hover{
+  div.media-images img:hover{
     width: 150px;
   	height: 125px;
   }
@@ -190,11 +204,11 @@ a.develop_by{
 }
 /* CELULAR */
 @media only screen and (max-width:480px){
-  div.media-imagenes img{
+  div.media-images img{
   	width: 100px;
   	height: 75px;
   }
-  div.media-imagenes img:hover{
+  div.media-images img:hover{
     width: 100px;
   	height: 75px;
   }
@@ -211,6 +225,13 @@ a.develop_by{
   }
   div.media-body p{
     font-size: 12px;
+  }
+  select.select-good-looking{
+    width: 28%;
+  }
+  label{
+    padding-right: 5px!important;
+    padding-left: 5px!important;
   }
 }
 /******** FIN DISPOSITIVOS ********/

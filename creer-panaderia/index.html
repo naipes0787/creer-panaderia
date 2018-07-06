@@ -59,24 +59,12 @@
 					</div>
 					<div class="modal-body">
 						<form class="form-horizontal">
-		        	<div class="form-group">
-								<div class="form-group">
-			          	<label for="panflauta" class="col-sm-2 control-label">
-			            	Pan flautita
-			            </label>
-									<select name="panflauta" class="selectpicker">
-										<option value="0.25">1/4kg</option>
-										<option value="0.5">1/2kg</option>
-										<option value="0.75">3/4kg</option>
-										<option value="1">1kg</option>
-										<option value="2">2kg</option>
-										<option value="3">3kg</option>
-									</select>
-								</div>
+							<div class="form-group">
 		          	<label for="chipa" class="col-sm-2 control-label">
 		            	Chip&aacute;s
 		            </label>
-								<select name="chipa" class="selectpicker">
+								<select name="chipa" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
 									<option value="0.25">1/4kg</option>
 									<option value="0.5">1/2kg</option>
 									<option value="0.75">3/4kg</option>
@@ -84,70 +72,160 @@
 									<option value="2">2kg</option>
 									<option value="3">3kg</option>
 								</select>
-							</div>
-							<div class="form-group">
-		          	<label for="panettone" class="col-sm-2 control-label">
-		            	Panettones
-		            </label>
-								<select name="panettone" class="selectpicker">
-									<option value="0.5">1/2kg</option>
-									<option value="1">1kg</option>
-									<option value="2">2kg</option>
-									<option value="3">3kg</option>
-								</select>
-							</div>
-							<div class="form-group">
-		          	<label for="figaza" class="col-sm-2 control-label">
-		            	Figazas
-		            </label>
-								<select name="figaza" class="selectpicker">
-									<option value="0.25">1/4kg</option>
-									<option value="0.5">1/2kg</option>
-									<option value="0.75">3/4kg</option>
-									<option value="1">1kg</option>
-									<option value="2">2kg</option>
-									<option value="3">3kg</option>
-								</select>
-							</div>
-							<div class="form-group">
-		          	<label for="cuerno" class="col-sm-2 control-label">
-		            	Cuernitos
-		            </label>
-								<select name="cuerno" class="selectpicker">
-									<option value="0.25">1/4kg</option>
-									<option value="0.5">1/2kg</option>
-									<option value="0.75">3/4kg</option>
-									<option value="1">1kg</option>
-									<option value="2">2kg</option>
-									<option value="3">3kg</option>
-								</select>
-							</div>
-            	<div class="form-group has-feedback">
-            		<label for="date" class="col-sm-2 control-label">
-            			D&iacute;a y horario
-            		</label>
-            		<div class="col-sm-4">
-									<input type="date" class="form-control" id="date" name="date" placeholder="D&iacute;a">
-           				<span class="glyphicon glyphicon-calendar form-control-feedback" aria-hidden="true"></span>
-            		</div>
-            		<div class="col-sm-4">
-									<input type="time" class="form-control" id="time" name="time" placeholder="Horario">
-            			<span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
-            		</div>
-            		<div class="col-sm-2">
-            		</div>
-            	</div>
-            	<div class="form-group">
-            		<div class="col-sm-offset-2 col-sm-10">
-            			<button type="submit" class="btn btn-primary">
-            				Pedir
-            			</button>
-            			<button type="button" class="btn btn-default btn-sm"
-										data-dismiss="modal">
-										Cancelar
-									</button>
-            		</div>
-							</div>
+						</div>
+						<div class="form-group">
+							<label for="cuerno" class="col-sm-2 control-label">
+								Cuernitos
+							</label>
+							<select name="cuerno" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="0.25">1/4kg</option>
+								<option value="0.5">1/2kg</option>
+								<option value="0.75">3/4kg</option>
+								<option value="1">1kg</option>
+								<option value="2">2kg</option>
+								<option value="3">3kg</option>
+							</select>
+						</div>
+						<div class="form-group">
+	          	<label for="factura" class="col-sm-2 control-label">
+	            	Facturas
+	            </label>
+							<select name="factura" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="6">6</option>
+								<option value="12">12</option>
+								<option value="18">18</option>
+								<option value="24">24</option>
+								<option value="30">30</option>
+								<option value="36">36</option>
+							</select>
+						</div>
+						<div class="form-group">
+	          	<label for="figaza" class="col-sm-2 control-label">
+	            	Figazas
+	            </label>
+							<select name="figaza" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="0.25">1/4kg</option>
+								<option value="0.5">1/2kg</option>
+								<option value="0.75">3/4kg</option>
+								<option value="1">1kg</option>
+								<option value="2">2kg</option>
+								<option value="3">3kg</option>
+							</select>
+						</div>
+						<div class="form-group">
+	          	<label for="grisin" class="col-sm-2 control-label">
+	            	Grisines
+	            </label>
+							<select name="grisin" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="0.25">1/4kg</option>
+								<option value="0.5">1/2kg</option>
+								<option value="0.75">3/4kg</option>
+								<option value="1">1kg</option>
+								<option value="2">2kg</option>
+								<option value="3">3kg</option>
+							</select>
+							<span>
+								&nbsp;Integral
+							</span>
+							<input type="checkbox" name="grisinintegral">
+						</div>
+						<div class="form-group">
+	          	<label for="panettone" class="col-sm-2 control-label">
+	            	Panettones
+	            </label>
+							<select name="panettone" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="0.5">1/2kg</option>
+								<option value="1">1kg</option>
+								<option value="2">2kg</option>
+								<option value="3">3kg</option>
+							</select>
+						</div>
+						<div class="form-group">
+	          	<label for="panarabe" class="col-sm-2 control-label">
+	            	Pan árabe
+	            </label>
+							<select name="panarabe" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="0.25">1/4kg</option>
+								<option value="0.5">1/2kg</option>
+								<option value="0.75">3/4kg</option>
+								<option value="1">1kg</option>
+								<option value="2">2kg</option>
+								<option value="3">3kg</option>
+							</select>
+							<span>
+								&nbsp;Integral
+							</span>
+							<input type="checkbox" name="panarabeintegral">
+						</div>
+						<div class="form-group">
+							<label for="pancebolla" class="col-sm-2 control-label">
+								Pan Cebolla
+							</label>
+							<select name="pancebolla" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="0.25">1/4kg</option>
+								<option value="0.5">1/2kg</option>
+								<option value="0.75">3/4kg</option>
+								<option value="1">1kg</option>
+								<option value="2">2kg</option>
+								<option value="3">3kg</option>
+							</select>
+							<span>
+								&nbsp;Integral
+							</span>
+							<input type="checkbox" name="pancebollaintegral">
+						</div>
+						<div class="form-group">
+							<label for="panflauta" class="col-sm-2 control-label">
+								Pan flautita
+							</label>
+							<select name="panflauta" class="selectpicker select-good-looking">
+								<option selected value="0"> 0 </option>
+								<option value="0.25">1/4kg</option>
+								<option value="0.5">1/2kg</option>
+								<option value="0.75">3/4kg</option>
+								<option value="1">1kg</option>
+								<option value="2">2kg</option>
+								<option value="3">3kg</option>
+							</select>
+							<span>
+								&nbsp;Integral
+							</span>
+							<input type="checkbox" name="panflautaintegral">
+						</div>
+						<h4 class="modal-header">Envío</h4>
+          	<div class="form-group has-feedback">
+          		<label for="date" class="col-sm-2 control-label">
+          			D&iacute;a y horario
+          		</label>
+          		<div class="col-sm-4">
+								<input type="date" class="form-control datetime-form" id="date" name="date">
+         				<span class="glyphicon glyphicon-calendar form-control-feedback " aria-hidden="true"></span>
+          		</div>
+          		<div class="col-sm-4">
+								<input type="time" class="form-control datetime-form" id="time" name="time" min="9:00" max="18:00" step="1800">
+          			<span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
+          		</div>
+          		<div class="col-sm-2">
+          		</div>
+          	</div>
+          	<div class="form-group">
+          		<div class="col-sm-offset-2 col-sm-10">
+          			<button type="submit" class="btn btn-primary">
+          				Pedir
+          			</button>
+          			<button type="button" class="btn btn-default btn-sm"
+									data-dismiss="modal">
+									Cancelar
+								</button>
+          		</div>
+						</div>
 						</form>
 						<div class="alert alert-warning alert-dismissible" role="alert">
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -252,7 +330,7 @@
           </div>
           <div class="col-xs-12 col-sm-9 col-sm-pull-3">
               <div class="media">
-                  <div class="media-left media-middle media-imagenes">
+                  <div class="media-left media-middle media-images">
                       <a href="#">
                       <img class="media-object img-thumbnail"
                        src="img/descuento.png" alt="Descuento">
@@ -291,7 +369,7 @@
 									<a class="btn btn-primary btn-xs" href="#">M&aacute;s &raquo;</a>
 								</p>
 							</div>
-							<div class="media-right media-middle media-imagenes">
+							<div class="media-right media-middle media-images">
               	<a href="#">
               		<img class="media-object img-thumbnail" src="img/promocion.png" alt="Promoci&oacute;n">
                 </a>
@@ -306,7 +384,7 @@
             </div>
             <div class="col-xs-12 col-sm-9 col-sm-pull-3">
                 <div class="media">
-                    <div class="media-left media-middle media-imagenes">
+                    <div class="media-left media-middle media-images">
                         <a href="#">
                         <img class="media-object img-thumbnail"
                          src="img/jose.png" alt="Jose De Lajonquiere">
