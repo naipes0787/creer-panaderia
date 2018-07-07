@@ -6,8 +6,9 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <!-- The above 3 meta tags *must* come first in the head; any other head
 	         content must come *after* these tags -->
+			<link rel="icon" href="img/site_icon.png">
 	    <title>Cr&eacute;er Panader&iacute;a</title>
-	        <!-- Bootstrap -->
+      <!-- Bootstrap -->
 	    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
 	    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -16,7 +17,7 @@
 	    <link href="css/mystyles.css" rel="stylesheet">
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <!-- Bootstrap JS -->
 	    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script>
 			$(document).ready(function () {
@@ -97,17 +98,17 @@
 	            </div>
 	            <div class="col-xs-12 col-sm-6 col-sm-offset-1">
 	                <h5>Mapa</h5>
-	                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.725375535823!2d-58.26803578427927!3d-34.737316080425146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e645f941c2b%3A0x58dc08dc575f53f5!2sUrquiza+2240%2C+Quilmes%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1513270415984" width="400" height="300" frameborder="0" style="border:0"></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.725375535823!2d-58.26803578427927!3d-34.737316080425146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e645f941c2b%3A0x58dc08dc575f53f5!2sUrquiza+2240%2C+Quilmes%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1513270415984" width="400" height="300" frameborder="0" style="border:0"></iframe>
 	            </div>
 	            <div class="col-xs-12 col-sm-11 col-sm-offset-1">
 	                <div class="btn-group" role="group" aria-label="...">
-	                	<a type="button" class="btn btn-primary" href="tel:+85212345678">
-	                		<i class="fa fa-phone"></i> Llamar
+	                	<a type="button" class="btn btn-success" href="tel:+85212345678">
+	                		<i class="fa fa-whatsapp"></i> Whatsapp
 	                	</a>
 	                	<a type="button" class="btn btn-info">
 	                		<i class="fa fa-skype"></i> Skype
 	                	</a>
-	                	<a type="button" class="btn btn-success" href="mailto:tudireccion@demail.com">
+	                	<a type="button" class="btn btn-primary" href="mailto:tudireccion@demail.com">
 	                		<i class="fa fa-envelope-o"></i> Email
 	                	</a>
 	                </div>
@@ -125,7 +126,7 @@
 	                			Nombre
 	                		</label>
 	                		<div class="col-sm-10">
-	                			<input type="text" class="form-control" id="firstname" name="firstname" placeholder="Ingres&aacute; tu nombre">
+	                			<input type="text" class="form-control" id="firstname" name="firstname" placeholder="Ingres&aacute; tu nombre" required>
 	                		</div>
 	                	</div>
 	                	<div class="form-group">
@@ -133,7 +134,7 @@
 	                			Apellido
 	                		</label>
 	                		<div class="col-sm-10">
-	                			<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Ingres&aacute; tu apellido">
+	                			<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Ingres&aacute; tu apellido" required>
 	                		</div>
 	                	</div>
 	                	<div class="form-group">
@@ -156,20 +157,19 @@
 	                			Email
 	                		</label>
 	                		<div class="col-sm-10">
-	                			<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+	                			<input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email" required>
 	                		</div>
 	                	</div>
 	                	<div class="form-group">
-	                		<div class="checkbox col-sm-5 col-sm-offset-2">
+	                		<div class="checkbox col-sm-2">
 	                			<label class="checkbox-inline">
-	                				<input type="checkbox" name="approve" value="">
-	                				<strong>¿Quer&eacute;s que nos contactemos con vos?</strong>
+	                				<strong>¿Por qué medio quer&eacute;s que te contactemos?</strong>
 	                			</label>
 	                		</div>
-	                		<div class="col-sm-3 col-sm-offset-1">
+	                		<div class="col-sm-3">
 	                			<select class="form-control">
-	                				<option>Tel.</option>
 	                				<option>Email</option>
+													<option>Tel.</option>
 	                			</select>
 	                		</div>
 	                	</div>
@@ -178,7 +178,7 @@
 	                			Comentarios
 	                		</label>
 	                		<div class="col-sm-10">
-	                			<textarea class="form-control" id="feedback" name="feedback" rows=12></textarea>
+	                			<textarea class="form-control" id="feedback" name="feedback" rows=12 placeholder="Dejanos aquí tu comentario" required></textarea>
 	                		</div>
 	                	</div>
 	                	<div class="form-group">

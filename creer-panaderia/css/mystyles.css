@@ -140,8 +140,10 @@ select.select-good-looking{
   padding: 5px;
   width: 12%;
   border-width: 3px;
-  border-color: #7986CB;
+  border-color: #337ab7;
+  background-color: #337ab7;
   border-radius: 15px;
+  color: #ffffff;
 }
 /******** FIN MODAL PEDIDO ********/
 
