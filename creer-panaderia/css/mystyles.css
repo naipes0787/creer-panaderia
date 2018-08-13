@@ -43,30 +43,6 @@ body {
 }
 /******** FIN HEADER ********/
 
-/******** CAROUSEL ********/
-.carousel {
-  background: #1a237e;
-}
-.carousel .item {
-  height: 300px;
-}
-.carousel .item img {
-  left: 0;
-  min-height: 300px;
-  position: absolute;
-  top: 0;
-}
-#carouselButtons {
-  bottom: 0px;
-  position: absolute;
-  right: 0px;
-}
-div.carousel img{
-  width: 35%;
-  height: 100%!important;
-}
-/******** FIN CAROUSEL ********/
-
 /******** NAVBAR ********/
 .navbar-inverse {
   background: #303f9f;
@@ -107,7 +83,34 @@ div.carousel img{
   background-color: #303f9f;
   color: #eeeeee;
 }
+a.translate{
+  cursor: pointer;
+}
 /******** FIN NAVBAR ********/
+
+/******** CAROUSEL ********/
+.carousel {
+  background: #1a237e;
+}
+.carousel .item {
+  height: 300px;
+}
+.carousel .item img {
+  left: 0;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+}
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+div.carousel img{
+  width: 35%;
+  height: 100%!important;
+}
+/******** FIN CAROUSEL ********/
 
 /******** INDEX BODY ********/
 div.media-images img{
@@ -150,7 +153,17 @@ select.select-good-looking{
 /******** CONTACTO ********/
 div.contact-class h6{
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1em;
+}
+
+h5.map-class{
+  font-weight: bold;
+  font-size: 1em;
+}
+
+div.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
 }
 /******** FIN CONTACTO ********/
 
@@ -214,10 +227,8 @@ a.develop_by{
     width: 100px;
   	height: 75px;
   }
-  div.carousel img{
-    min-width: 100%;
-    min-height: 70%!important;
-    height: 70%!important;
+  div#mycarousel img{
+    display:none;
   }
   h2.media-heading{
     font-size: 18px;
@@ -234,6 +245,18 @@ a.develop_by{
   label{
     padding-right: 5px!important;
     padding-left: 5px!important;
+  }
+  div#btn-group-contactus-1 > div.btn-group{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a.button-contactus{
+    font-size: 0.7em!important;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  label.checkbox-inline{
+    
   }
 }
 /******** FIN DISPOSITIVOS ********/

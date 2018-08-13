@@ -18,7 +18,7 @@
 			<script src="bower_components/jquery/dist/jquery.min.js"></script>
 			<!-- Bootstrap JS -->
 		  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-			<script>
+			<script type="text/javascript">
 				$(document).ready(function () {
 			   		$("#includedFooter").load("footer.html");
 				})
@@ -41,12 +41,12 @@
 					<ul class="nav navbar-nav">
 	        	<li class="active">
 							<a href="index.html">
-								<span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;Inicio
 							</a>
 						</li>
 						<li>
 	          	<a href="contactus.html">
-	            	<i class="fa fa-envelope-o"></i> Contacto
+	            	<i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Contacto
 	            </a>
 						</li>
 					</ul>
@@ -59,15 +59,15 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">Hac&eacute; tu pedido </h4>
+						<h4 class="modal-title"><span id="order_label"></span>&nbsp;</h4>
 					</div>
 					<div class="modal-body">
-						<form class="form-horizontal">
+						<form name="order_form" id="order_form" class="form-horizontal" method="post" action="php/mails.php">
 							<div class="form-group">
 		          	<label for="chipa" class="col-sm-2 control-label">
 		            	Chip&aacute;s
 		            </label>
-								<select name="chipa" class="selectpicker select-good-looking">
+								<select name="chipa" id="chipa" class="selectpicker select-good-looking">
 									<option selected value="0"> 0 </option>
 									<option value="0.25">1/4kg</option>
 									<option value="0.5">1/2kg</option>
@@ -76,166 +76,166 @@
 									<option value="2">2kg</option>
 									<option value="3">3kg</option>
 								</select>
-						</div>
-						<div class="form-group">
-							<label for="cuerno" class="col-sm-2 control-label">
-								Cuernitos
-							</label>
-							<select name="cuerno" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="0.25">1/4kg</option>
-								<option value="0.5">1/2kg</option>
-								<option value="0.75">3/4kg</option>
-								<option value="1">1kg</option>
-								<option value="2">2kg</option>
-								<option value="3">3kg</option>
-							</select>
-						</div>
-						<div class="form-group">
-	          	<label for="factura" class="col-sm-2 control-label">
-	            	Facturas
-	            </label>
-							<select name="factura" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="6">6</option>
-								<option value="12">12</option>
-								<option value="18">18</option>
-								<option value="24">24</option>
-								<option value="30">30</option>
-								<option value="36">36</option>
-							</select>
-						</div>
-						<div class="form-group">
-	          	<label for="figaza" class="col-sm-2 control-label">
-	            	Figazas
-	            </label>
-							<select name="figaza" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="0.25">1/4kg</option>
-								<option value="0.5">1/2kg</option>
-								<option value="0.75">3/4kg</option>
-								<option value="1">1kg</option>
-								<option value="2">2kg</option>
-								<option value="3">3kg</option>
-							</select>
-						</div>
-						<div class="form-group">
-	          	<label for="grisin" class="col-sm-2 control-label">
-	            	Grisines
-	            </label>
-							<select name="grisin" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="0.25">1/4kg</option>
-								<option value="0.5">1/2kg</option>
-								<option value="0.75">3/4kg</option>
-								<option value="1">1kg</option>
-								<option value="2">2kg</option>
-								<option value="3">3kg</option>
-							</select>
-							<span>
-								&nbsp;Integral
-							</span>
-							<input type="checkbox" name="grisinintegral" class="input-good-looking">
-						</div>
-						<div class="form-group">
-	          	<label for="panettone" class="col-sm-2 control-label">
-	            	Panettones
-	            </label>
-							<select name="panettone" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="0.5">1/2kg</option>
-								<option value="1">1kg</option>
-								<option value="2">2kg</option>
-								<option value="3">3kg</option>
-							</select>
-						</div>
-						<div class="form-group">
-	          	<label for="panarabe" class="col-sm-2 control-label">
-	            	Pan árabe
-	            </label>
-							<select name="panarabe" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="0.25">1/4kg</option>
-								<option value="0.5">1/2kg</option>
-								<option value="0.75">3/4kg</option>
-								<option value="1">1kg</option>
-								<option value="2">2kg</option>
-								<option value="3">3kg</option>
-							</select>
-							<span>
-								&nbsp;Integral
-							</span>
-							<input type="checkbox" name="panarabeintegral">
-						</div>
-						<div class="form-group">
-							<label for="pancebolla" class="col-sm-2 control-label">
-								Pan Cebolla
-							</label>
-							<select name="pancebolla" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="0.25">1/4kg</option>
-								<option value="0.5">1/2kg</option>
-								<option value="0.75">3/4kg</option>
-								<option value="1">1kg</option>
-								<option value="2">2kg</option>
-								<option value="3">3kg</option>
-							</select>
-							<span>
-								&nbsp;Integral
-							</span>
-							<input type="checkbox" name="pancebollaintegral">
-						</div>
-						<div class="form-group">
-							<label for="panflauta" class="col-sm-2 control-label">
-								Pan flautita
-							</label>
-							<select name="panflauta" class="selectpicker select-good-looking">
-								<option selected value="0"> 0 </option>
-								<option value="0.25">1/4kg</option>
-								<option value="0.5">1/2kg</option>
-								<option value="0.75">3/4kg</option>
-								<option value="1">1kg</option>
-								<option value="2">2kg</option>
-								<option value="3">3kg</option>
-							</select>
-							<span>
-								&nbsp;Integral
-							</span>
-							<input type="checkbox" name="panflautaintegral">
-						</div>
-						<h4 class="modal-header">Envío</h4>
-          	<div class="form-group has-feedback">
-          		<label for="date" class="col-sm-2 control-label">
-          			D&iacute;a y horario
-          		</label>
-          		<div class="col-sm-4">
-								<input type="date" class="form-control datetime-form" id="date" name="date">
-         				<span class="glyphicon glyphicon-calendar form-control-feedback " aria-hidden="true"></span>
-          		</div>
-          		<div class="col-sm-4">
-								<input type="time" class="form-control datetime-form" id="time" name="time" min="9:00" max="18:00" step="1800">
-          			<span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
-          		</div>
-          		<div class="col-sm-2">
-          		</div>
-          	</div>
-          	<div class="form-group">
-          		<div class="col-sm-offset-2 col-sm-10">
-          			<button type="submit" class="btn btn-primary">
-          				Pedir
-          			</button>
-          			<button type="button" class="btn btn-default btn-sm"
-									data-dismiss="modal">
-									Cancelar
-								</button>
-          		</div>
-						</div>
+							</div>
+							<div class="form-group">
+								<label for="cuerno" class="col-sm-2 control-label">
+									Cuernitos
+								</label>
+								<select name="cuerno" id="cuerno" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="0.25">1/4kg</option>
+									<option value="0.5">1/2kg</option>
+									<option value="0.75">3/4kg</option>
+									<option value="1">1kg</option>
+									<option value="2">2kg</option>
+									<option value="3">3kg</option>
+								</select>
+							</div>
+							<div class="form-group">
+		          	<label for="factura" class="col-sm-2 control-label">
+		            	Facturas
+		            </label>
+								<select name="factura" id="factura" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="6">6</option>
+									<option value="12">12</option>
+									<option value="18">18</option>
+									<option value="24">24</option>
+									<option value="30">30</option>
+									<option value="36">36</option>
+								</select>
+							</div>
+							<div class="form-group">
+		          	<label for="figaza" class="col-sm-2 control-label">
+		            	Figazas
+		            </label>
+								<select name="figaza" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="0.25">1/4kg</option>
+									<option value="0.5">1/2kg</option>
+									<option value="0.75">3/4kg</option>
+									<option value="1">1kg</option>
+									<option value="2">2kg</option>
+									<option value="3">3kg</option>
+								</select>
+							</div>
+							<div class="form-group">
+		          	<label for="grisin" class="col-sm-2 control-label">
+		            	Grisines
+		            </label>
+								<select name="grisin" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="0.25">1/4kg</option>
+									<option value="0.5">1/2kg</option>
+									<option value="0.75">3/4kg</option>
+									<option value="1">1kg</option>
+									<option value="2">2kg</option>
+									<option value="3">3kg</option>
+								</select>
+								<span>
+									&nbsp;Integral
+								</span>
+								<input type="checkbox" name="grisinintegral" class="input-good-looking">
+							</div>
+							<div class="form-group">
+		          	<label for="panettone" class="col-sm-2 control-label">
+		            	Panettones
+		            </label>
+								<select name="panettone" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="0.5">1/2kg</option>
+									<option value="1">1kg</option>
+									<option value="2">2kg</option>
+									<option value="3">3kg</option>
+								</select>
+							</div>
+							<div class="form-group">
+		          	<label for="panarabe" class="col-sm-2 control-label">
+		            	Pan árabe
+		            </label>
+								<select name="panarabe" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="0.25">1/4kg</option>
+									<option value="0.5">1/2kg</option>
+									<option value="0.75">3/4kg</option>
+									<option value="1">1kg</option>
+									<option value="2">2kg</option>
+									<option value="3">3kg</option>
+								</select>
+								<span>
+									&nbsp;Integral
+								</span>
+								<input type="checkbox" name="panarabeintegral">
+							</div>
+							<div class="form-group">
+								<label for="pancebolla" class="col-sm-2 control-label">
+									Pan Cebolla
+								</label>
+								<select name="pancebolla" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="0.25">1/4kg</option>
+									<option value="0.5">1/2kg</option>
+									<option value="0.75">3/4kg</option>
+									<option value="1">1kg</option>
+									<option value="2">2kg</option>
+									<option value="3">3kg</option>
+								</select>
+								<span>
+									&nbsp;Integral
+								</span>
+								<input type="checkbox" name="pancebollaintegral">
+							</div>
+							<div class="form-group">
+								<label for="panflauta" class="col-sm-2 control-label">
+									Pan flautita
+								</label>
+								<select name="panflauta" class="selectpicker select-good-looking">
+									<option selected value="0"> 0 </option>
+									<option value="0.25">1/4kg</option>
+									<option value="0.5">1/2kg</option>
+									<option value="0.75">3/4kg</option>
+									<option value="1">1kg</option>
+									<option value="2">2kg</option>
+									<option value="3">3kg</option>
+								</select>
+								<span>
+									&nbsp;Integral
+								</span>
+								<input type="checkbox" name="panflautaintegral">
+							</div>
+							<h4 class="modal-header">Envío</h4>
+	          	<div class="form-group has-feedback">
+	          		<label for="date" class="col-sm-2 control-label">
+	          			D&iacute;a y horario
+	          		</label>
+	          		<div class="col-sm-4">
+									<input type="date" class="form-control datetime-form" id="date" name="date">
+	         				<span class="glyphicon glyphicon-calendar form-control-feedback " aria-hidden="true"></span>
+	          		</div>
+	          		<div class="col-sm-4">
+									<input type="time" class="form-control datetime-form" id="time" name="time" min="9:00" max="18:00" step="1800">
+	          			<span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
+	          		</div>
+	          		<div class="col-sm-2">
+	          		</div>
+	          	</div>
+	          	<div class="form-group">
+	          		<div class="col-sm-offset-2 col-sm-10">
+	          			<button type="submit" class="btn btn-primary">
+	          				Pedir
+	          			</button>
+	          			<button type="button" class="btn btn-default btn-sm"
+										data-dismiss="modal">
+										Cancelar
+									</button>
+	          		</div>
+							</div>
 						</form>
 						<div class="alert alert-warning alert-dismissible" role="alert">
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
-							Por favor, <a href="tel:+85212345678" class="alert-link">llamanos</a> en caso de que precises m&aacute;s de 5kg de productos.
+							Por favor, <a href="tel:+85212345678" class="alert-link">llamanos</a> en caso de que tengas alguna consulta.
 						</div>
 					</div>
 				</div>
@@ -245,7 +245,7 @@
         <div class="container">
             <div class="row row-header">
                 <div class="col-xs-12 col-sm-8">
-                    <h1>Cr&eacute;er Panader&iacute;a</h1>
+                    <h1 translate="no">Cr&eacute;er Panader&iacute;a</h1>
                     <p style="padding:40px;"></p>
                     <p>El amor a lo dulce junto a la devoci&oacute;n por el arte de cocinar
                     es lo que renueva nuestra inspiraci&oacute;n para crear las mejores
@@ -300,7 +300,7 @@
 								<img class="media-object img-thumbnail"
 			                       src="img/jose.png" alt="Jose De Lajonquiere">
 								<div class="carousel-caption">
-									<h2>Jose De Lajonquiere</h2>
+									<h2 translate="no">Jose De Lajonquiere</h2>
 									L&iacute;der de cocina, especializado en panader&iacute;a y
 									pasteler&iacute;a. Realiz&oacute; cursos en distintos
 									institutos, entre ellos: LYC&Eacute;E, Gato Dumas y EAG.
@@ -395,7 +395,7 @@
                         </a>
                     </div>
                     <div class="media-body">
-                        <h2 class="media-heading">Jose De Lajonquiere</h2>
+                        <h2 class="media-heading" translate="no">Jose De Lajonquiere</h2>
                         <h4 class="media-subheading">L&iacute;der de cocina</h4>
                         <p>Especializado en panader&iacute;a y
 						   pasteler&iacute;a. Realiz&oacute; cursos en distintos
