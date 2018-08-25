@@ -3,8 +3,9 @@
       <div class="row">
           <div class="col-xs-12">
              <ul class="breadcrumb">
-                 <li><a href="index.html">Inicio</a></li>
-                 <li class="active">Contacto</li>
+               <li><a href="index.php">Inicio</a></li>
+               <li class="active">Contacto</li>
+               <li><a href="products.php">Nuestros Productos</a></li>
              </ul>
           </div>
           <div class="col-xs-12">
@@ -12,8 +13,7 @@
              <hr>
           </div>
       </div>
-
-      <div class="row row-content">
+      <div class="row row-content row-contactus">
          <div class="col-xs-12">
             <h3>Información de ubicación</h3>
          </div>
@@ -34,20 +34,19 @@
 					<br><br>
           <div id="btn-group-contactus-1" class="col-xs-12 col-sm-11 col-sm-offset-1">
               <div class="col-xs-12 btn-group" role="group" aria-label="...">
-              	<a type="button" class="btn btn-success button-contactus" href="https://api.whatsapp.com/send?phone=1151093079">
-              		<i class="fa fa-whatsapp"></i> Whatsapp
+              	<a type="button" class="btn btn-success button-contactus" href="https://api.whatsapp.com/send?phone=+5491151093079">
+              		<i class="fab fa-whatsapp"></i> Whatsapp
               	</a>
               	<a type="button" class="btn btn-info button-contactus">
-              		<i class="fa fa-skype"></i> Skype
+              		<i class="fab fa-skype"></i> Skype
               	</a>
               	<a type="button" class="btn btn-primary button-contactus" href="mailto:pedidospanaderiajl@gmail.com">
-              		<i class="fa fa-envelope-o"></i> Email
+              		<i class="fas fa-envelope"></i> Email
               	</a>
               </div>
           </div>
       </div>
-
-      <div class="row row-content">
+      <div class="row row-content row-contactus">
          <div class="col-xs-12">
             <h3>Consultas y sugerencias</h3>
          </div>

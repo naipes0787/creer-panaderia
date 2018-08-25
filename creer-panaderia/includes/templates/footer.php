@@ -12,10 +12,10 @@
             <h5>Contacto</h5>
             <h6>Nuestra direcci&oacute;n</h6>
             <address>
-              Urquiza 1900<br>
+              Urquiza 2240<br>
               Quilmes, Buenos Aires<br>
               ARGENTINA<br>
-	            <i class="fa fa-phone"></i>: 1151093079<br>
+	            <i class="fa fa-phone"></i>: +5491151093079<br>
               <i class="fa fa-envelope"></i>: <a href="mailto:pedidospanaderiajl@gmail.com">pedidospanaderiajl@gmail.com</a>
             </address>
           </div>

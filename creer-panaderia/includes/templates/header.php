@@ -9,7 +9,7 @@
     <title>Cr&eacute;er Panader&iacute;a</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans">
     <link href="css/bootstrap-social.css" rel="stylesheet">
     <link href="css/mystyles.css" rel="stylesheet">
@@ -27,6 +27,7 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="nav-header">
+					<span class="menu-title">Créer</span>
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 					data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span class="sr-only">Toggle navigation</span>
@@ -34,7 +35,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
 					</button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" height=30 width=41></a>
 				</div>
 				<div id="navbar" class="navbar-principal navbar-collapse collapse">
 					<ul class="nav navbar-nav">
@@ -45,12 +45,12 @@
 						</li>
 						<li id="contactus-menu-item">
 	          	<a class="menu-item" href="contactus.php">
-	            	<i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Contacto
+	            	<i class="fas fa-envelope"></i>&nbsp;&nbsp;Contacto
 	            </a>
 						</li>
 						<li id="products-menu-item">
 							<a class="menu-item" href="products.php">
-								<i class="fas fa-cookie-bite"></i>&nbsp;&nbsp;Nuestros Productos
+								<i class="fas fa-utensils"></i>&nbsp;&nbsp;Nuestros Productos
 							</a>
 						</li>
 					</ul>
@@ -255,7 +255,7 @@
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
-							Por favor, <a href="tel:+1151093079" class="alert-link">llamanos</a> en caso de que tengas alguna consulta.
+							Por favor, <a href="tel:+5491151093079" class="alert-link">llamanos</a> en caso de que tengas alguna consulta.
 						</div>
 					</div>
 				</div>
@@ -276,7 +276,7 @@
 				<div class="col-xs-12 col-sm-2">
           <div class="pedido">
   					<a type="button" class="btn btn-warning btn-block btn-pedir" onclick="openReservation();">
-            		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hac&eacute; tu pedido&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            		&nbsp;&nbsp;<span class="fas fa-concierge-bell" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;Hac&eacute; tu pedido&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           	</a>
           </div>
         </div>

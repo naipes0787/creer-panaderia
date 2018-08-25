@@ -38,6 +38,12 @@ body {
 /******** FIN GLOBAL ********/
 
 /******** HEADER ********/
+span.menu-title{
+  display: none;
+}
+div.navbar-principal{
+  margin-left: 17px!important;
+}
 div.pedido{
   padding-top: 65%;
 }
@@ -197,15 +203,16 @@ div.contact-class h6{
   font-weight: bold;
   font-size: 1em;
 }
-
 h5.map-class{
   font-weight: bold;
   font-size: 1em;
 }
-
 div.container-fluid{
   padding-left: 0;
   padding-right: 0;
+}
+div.row-contactus{
+  padding: 25px 0px;
 }
 /******** FIN CONTACTO ********/
 
@@ -279,6 +286,9 @@ a.develop_by{
   img.img-responsive{
 	margin-left: 37%;
 	padding-top: 5%;
+  }
+  span.menu-title{
+    display: inline-block;
   }
 }
 @media only screen and (max-width:600px){
