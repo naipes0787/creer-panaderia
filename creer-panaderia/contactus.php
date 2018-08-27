@@ -7,36 +7,33 @@
           </div>
       </div>
       <div class="row row-content row-contactus">
-         <div class="col-xs-12">
-            <h3>Información de ubicación</h3>
-         </div>
           <div class="col-xs-12 col-sm-4 col-sm-offset-1 contact-class">
-                 <h6>Nuestra direcci&oacute;n</h6>
-                 <address>
-			              Urquiza 2240<br>
-			              Quilmes, Buenos Aires<br>
-			              ARGENTINA<br>
-						  		  <i class="fa fa-phone"></i>: 1151093079<br>
-			              <i class="fa fa-envelope"></i>: <a href="mailto:pedidospanaderiajl@gmail.com">pedidospanaderiajl@gmail.com</a>
-	           		 </address>
-          </div>
-          <div class="container-fluid">
-              <h5 class="map-class col-xs-12 col-sm-6">Mapa</h5>
-							<iframe class="col-xs-12 col-sm-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.725375535823!2d-58.26803578427927!3d-34.737316080425146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e645f941c2b%3A0x58dc08dc575f53f5!2sUrquiza+2240%2C+Quilmes%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1513270415984" height="300" frameborder="0" style="border:0"></iframe>
-          </div>
-					<br><br>
-          <div id="btn-group-contactus-1" class="col-xs-12 col-sm-11 col-sm-offset-1">
-              <div class="col-xs-12 btn-group" role="group" aria-label="...">
-              	<a type="button" class="btn btn-success button-contactus" href="https://api.whatsapp.com/send?phone=+5491151093079">
-              		<i class="fab fa-whatsapp"></i> Whatsapp
-              	</a>
-              	<a type="button" class="btn btn-info button-contactus">
-              		<i class="fab fa-skype"></i> Skype
-              	</a>
-              	<a type="button" class="btn btn-primary button-contactus" href="mailto:pedidospanaderiajl@gmail.com">
-              		<i class="fas fa-envelope"></i> Email
-              	</a>
+            <div class="contact-section">
+              <h6>Encontranos en</h6>
+              <address>
+                Urquiza 2240<br>
+                Quilmes, Buenos Aires<br>
+                ARGENTINA<br>
+              </address>
+            </div>
+            <div class="contact-section">
+              <h6>Escribinos por</h6>
+              <div class="col-xs-12 btn-group contact-btn-group" role="group" aria-label="...">
+                <a type="button" class="btn btn-success button-contactus" href="https://api.whatsapp.com/send?phone=+5491151093079">
+                  &nbsp;<i class="fab fa-whatsapp"></i>&nbsp;
+                </a>
+                <a type="button" class="btn btn-info button-contactus" href="https://m.me/creerpanaderiapasteleria">
+                  &nbsp;<i class="fab fa-facebook-messenger"></i>&nbsp;
+                </a>
+                <a type="button" class="btn btn-primary button-contactus" href="mailto:pedidospanaderiajl@gmail.com">
+                  &nbsp;<i class="fas fa-envelope"></i>&nbsp;
+                </a>
               </div>
+            </div>
+          </div>
+          <div class="container-fluid contact-class">
+              <h6 class="col-xs-12 col-sm-6">Mapa</h6>
+							<iframe class="col-xs-12 col-sm-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.725375535823!2d-58.26803578427927!3d-34.737316080425146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e645f941c2b%3A0x58dc08dc575f53f5!2sUrquiza+2240%2C+Quilmes%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1513270415984" height="300" frameborder="0" style="border:0"></iframe>
           </div>
       </div>
       <div class="row row-content row-contactus">

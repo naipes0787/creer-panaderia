@@ -22,16 +22,11 @@
           <div class="col-xs-12 col-sm-4 col-md-4 site-footer footer-column-3">
             <h5>Seguinos</h5>
             <div class="nav navbar-nav" style="padding: 10px 10px;">
-              <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+" target="_blank"><i class="fab fa-google-plus"></i></a>
               <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/creerpanaderiapasteleria/" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-              <a class="btn btn-social-icon" href="mailto:" target="_blank"><i class="fas fa-envelope"></i></a>
+              <a class="btn btn-social-icon" href="mailto:pedidospanaderiajl@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
             </div>
           </div>
           <div class="col-xs-12 copyright">
-            <p style="padding:10px;"></p>
             <p align="center">&copy; Copyright 2018 Cr&eacute;er Panader&iacute;a - Desarrollado por <a class="develop_by" href="https://devsolutionsba.com/es/inicio">DevSolutionsBA</a></p>
           </div>
         </div>

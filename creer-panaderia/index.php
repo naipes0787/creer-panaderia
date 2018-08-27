@@ -65,8 +65,7 @@
 		</div>
       <div class="row row-content home-row">
         <div class="col-xs-12 col-sm-3 col-sm-push-9">
-            <p style="padding:20px;"></p>
-            <h3 align="center">Descuento en delicias</h3>
+            <h3 class= "home-section-title" align="center">Descuento en delicias</h3>
         </div>
         <div class="col-xs-12 col-sm-9 col-sm-pull-3">
             <div class="media">
@@ -76,7 +75,7 @@
                      src="img/descuento.png" alt="Descuento">
                     </a>
                 </div>
-                <div class="media-body">
+                <div class="media-body left-section">
                     <h2 class="media-heading">
                     	Panettone
                     	<span class="label label-danger">Descuento</span>
@@ -91,12 +90,11 @@
       </div>
       <div class="row row-content home-row">
         <div class="col-xs-12 col-sm-3">
-            <p style="padding:20px;"></p>
-            <h3 align="center">Promoci&oacute;n de este mes!</h3>
+            <h3 class= "home-section-title" align="center">Promoci&oacute;n de este mes!</h3>
         </div>
         <div class="col-xs-12 col-sm-9">
       		<div class="media">
-          	<div class="media-body">
+          	<div class="media-body right-section">
               <h2 class="media-heading">
                 Combo para cuatro
                 <span class="label label-danger">Nuevo</span>
@@ -115,8 +113,7 @@
       </div>
       <div class="row row-content home-row">
         <div class="col-xs-12 col-sm-3 col-sm-push-9">
-          <p style="padding:20px;"></p>
-          <h3 align="center">Conoc&eacute; a nuestro l&iacute;der de cocina</h3>
+          <h3 class= "home-section-title" align="center">Conoc&eacute; a nuestro l&iacute;der de cocina</h3>
         </div>
         <div class="col-xs-12 col-sm-9 col-sm-pull-3">
           <div class="media">
@@ -125,7 +122,7 @@
               <img class="media-object img-thumbnail" src="img/jose.png" alt="Jose De Lajonquiere">
               </a>
             </div>
-            <div class="media-body">
+            <div class="media-body left-section">
               <h2 class="media-heading" translate="no">Jose De Lajonquiere</h2>
               <h4 class="media-subheading">L&iacute;der de cocina</h4>
               <p>Especializado en panader&iacute;a y

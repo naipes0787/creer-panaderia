@@ -15,16 +15,14 @@ body {
   border-bottom: 1px ridge;
   min-height: 400px;
 }
-.row-footer {
-  margin: 0px auto;
-  padding: 10px 0px;
-  background-color: #AfAfAf;
-}
 .jumbotron {
   margin: 0px auto;
   padding: 50px 30px 60px 30px;
-  background: #7986CB;
   color: floralwhite;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .tab-content {
   border-bottom: 1px solid #dddddd;
@@ -164,7 +162,6 @@ div.media-images img{
   -webkit-filter: grayscale(0.7);
   -webkit-transition: all .5s ease-in-out;
 }
-
 div.media-images img:hover{
 	width: 300px;
 	height: 250px;
@@ -172,13 +169,34 @@ div.media-images img:hover{
   -webkit-transform: scale(1.1);
   transform: rotate(5deg);
 }
-
 .label{
   font-size: 70%;
 }
-
 div.home-row{
   min-height: 250px;
+}
+h3.home-section-title{
+  margin-top: 17%;
+  font-size: 1.8em;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  line-height: normal;
+  color: ROYALBLUE;
+  text-transform: uppercase;
+}
+h2.media-heading{
+  margin-top: 11%;
+}
+div.left-section{
+  padding-left: 2.5%;
+  padding-right: 10%;
+}
+div.right-section{
+  padding-left: 10%;
+  padding-right: 2.5%;
+}
+div.media-body p{
+  font-size: 1.15em;
 }
 /******** FIN INDEX BODY ********/
 
@@ -196,31 +214,58 @@ select.select-good-looking{
   border-radius: 15px;
   color: #ffffff;
 }
+input.form-with-icon{
+  display: inline-block;
+  width: 80%;
+}
 /******** FIN MODAL PEDIDO ********/
 
 /******** CONTACTO ********/
+div.row-contactus{
+	padding: 0px 0px 40px 0px!important;
+}
 div.contact-class {
-  font-size: 1.2em!important;
+  font-size: 1.4em!important;
 }
 div.contact-class h6{
   font-weight: bold;
   font-size: 1em;
 }
-
+div.contact-class address {
+  color: #000;
+  font-size: 80%;
+  margin: 0px;
+}
 h5.map-class{
   font-weight: bold;
   font-size: 1.2em;
 }
-
 div.container-fluid{
   padding-left: 0;
   padding-right: 0;
 }
+div.contact-btn-group{
+  top: 10px;
+  left: 0;
+  padding-bottom: 25px;
+}
+div.contact-section{
+  padding-bottom: 20%;
+}
+a.button-contactus{
+  font-size: 1.1em!important;
+}
 /******** FIN CONTACTO ********/
 
 /******** FOOTER ********/
-address {
-  color: #0f0f0f;
+.row-footer {
+  margin: 0px auto;
+  padding: 10px 0px;
+  background-color: #303f9f;
+  color: #e6ecff;
+}
+div.site-footer address {
+  color: #fff;
   font-size: 80%;
   margin: 0px;
 }
@@ -229,22 +274,34 @@ div.site-footer{
   padding-top: 20px;
 }
 div.site-footer h5{
-	font-weight: bold;
-	font-size: 1.2em;
+	line-height: normal;
+	font-size: 1.3em;
 }
 div.site-footer a{
 	text-decoration: none;
+  color: #9d9d9d;
+}
+div.site-footer a:hover{
+  color: #fff;
+}
+div.footer-column-3 a{
+  color: #fff;
 }
 div.copyright{
-
+  color: #ddd;
+  padding-top: 60px;
 }
 a.develop_by{
+  color: #74a9d8;
 	font-size: 1em!important;
 	font-weight: bold;
 	text-decoration: none;
 }
+a.develop_by:hover{
+  color: #9cc2e3;
+}
 li.footer-menu-item{
-  color: #337ab7;
+  color: #9d9d9d;
   padding-left: 10px;
 }
 /******** FIN FOOTER ********/
@@ -309,10 +366,13 @@ li.footer-menu-item{
 	margin-left: 5%;
 	top: 17.5%;
   }
-    div.carousel-caption{
+  div.carousel-caption{
     left: 50%;
     right: 5%;
     padding-bottom: 5%;
+  }
+  div.contact-section{
+    padding-bottom: 3%;
   }
 }
 @media only screen and (max-width:600px){
@@ -355,13 +415,9 @@ li.footer-menu-item{
     margin-left: auto;
     margin-right: auto;
   }
-  a.button-contactus{
-    font-size: 0.7em!important;
-    padding-left: 4px;
-    padding-right: 4px;
-  }
   div.home-row{
     min-height: 150px;
+    padding: 0px 0px 50px 0px;
   }
   h2.carousel-header{
     padding-left: 0;
