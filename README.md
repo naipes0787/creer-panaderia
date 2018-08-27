@@ -9,5 +9,6 @@ Y por último, utilizando bower, instalar bootstrap y font-awesome. Los pasos a 
         npm -v
   3) Una vez instalados, puede ejecutarse en el mismo directorio que se encuentra el archivo package.json la instrucción: npm install
   4) Ahora que bower está instalado, ejecutar: bower install para agregar fontawesome y bootstrap
+  5) Paso opcional -> Recomiendo utilizar como IDE: Atom (https://atom.io/)
 
-Se utiliza lite-server (https://github.com/johnpapa/lite-server) como servidor local. Ya está listo para ser levantado (Corre en el puerto 3000) ejecutando en el directorio donde se encuentra el package.jspn la instrucción: npm run dev
+Para ejecutarlo en un servidor local deberíamos utilizar MAMP (https://www.mamp.info/en/). Descargarlo e instalarlo. El código debería estar en el directorio htdocs del MAMP. Luego iniciamos MAMP y ya podríamos acceder de la siguiente forma: http://localhost/creer-panaderia
