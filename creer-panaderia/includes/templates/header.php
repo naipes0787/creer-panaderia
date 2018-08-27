@@ -17,11 +17,6 @@
       $archivo = basename($_SERVER['PHP_SELF']);
       $pagina = str_replace(".php", "", $archivo);
     ?>
-    <script type="text/javascript">
-    	$(document).ready(function () {
-       		$("#includedFooter").load("footer.html");
-    	})
-    </script>
 	</head>
 	<body class="<?php echo $pagina; ?>">
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

@@ -142,7 +142,7 @@ p.carousel-description{
 div.carousel-caption{
   left: 30%;
   right: 15%;
-  padding-bottom: 5%;
+  padding-bottom: 6%;
 }
 span.fa-arrow-left{
   position: absolute;
@@ -199,20 +199,22 @@ select.select-good-looking{
 /******** FIN MODAL PEDIDO ********/
 
 /******** CONTACTO ********/
+div.contact-class {
+  font-size: 1.2em!important;
+}
 div.contact-class h6{
   font-weight: bold;
   font-size: 1em;
 }
+
 h5.map-class{
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.2em;
 }
+
 div.container-fluid{
   padding-left: 0;
   padding-right: 0;
-}
-div.row-contactus{
-  padding: 25px 0px;
 }
 /******** FIN CONTACTO ********/
 
@@ -222,6 +224,10 @@ address {
   font-size: 80%;
   margin: 0px;
 }
+div.site-footer{
+  font-size: 1.2em!important;
+  padding-top: 20px;
+}
 div.site-footer h5{
 	font-weight: bold;
 	font-size: 1.2em;
@@ -229,9 +235,17 @@ div.site-footer h5{
 div.site-footer a{
 	text-decoration: none;
 }
+div.copyright{
+
+}
 a.develop_by{
+	font-size: 1em!important;
 	font-weight: bold;
 	text-decoration: none;
+}
+li.footer-menu-item{
+  color: #337ab7;
+  padding-left: 10px;
 }
 /******** FIN FOOTER ********/
 
@@ -246,8 +260,8 @@ a.develop_by{
     min-height: 50%;
   }
   div.carousel-caption{
-    left: 50%;
-    right: 5%;
+    left: 48%;
+    right: 10%;
     padding-bottom: 5%;
   }
 }
@@ -288,7 +302,17 @@ a.develop_by{
 	padding-top: 5%;
   }
   span.menu-title{
-    display: inline-block;
+    position: absolute;
+	font-size: 1.7em;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 5%;
+	top: 17.5%;
+  }
+    div.carousel-caption{
+    left: 50%;
+    right: 5%;
+    padding-bottom: 5%;
   }
 }
 @media only screen and (max-width:600px){

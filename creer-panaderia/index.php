@@ -85,7 +85,6 @@
                     <p>Panettone, mejor conocido como pan dulce, con chips de chocolate.
 					Viene en tres tamaños: peque&ntilde;o, mediano o grande.
 					El precio publicado es por el peque&ntilde;o.</p>
-                    <!-- p><a class="btn btn-primary btn-xs" href="#">M&aacute;s &raquo;</a></p-->
                 </div>
             </div>
         </div>
@@ -105,7 +104,6 @@
               <p>En diciembre tenemos un combo de promoci&oacute;n para
               cuatro personas: 4 bolas de fraile, 1 cremona, 6 medialunas y
               una docena de bizcochos de grasa. Todo por $400! </p>
-							<!-- p><a class="btn btn-primary btn-xs" href="#">M&aacute;s &raquo;</a></p-->
 						</div>
 						<div class="media-right media-middle media-images">
             	<a href="#">
@@ -134,7 +132,6 @@
 	   						pasteler&iacute;a. Realiz&oacute; cursos en distintos
 	   						institutos, entre ellos: LYC&Eacute;E, Gato Dumas y EAG.
               </p>
-              <!-- p><a class="btn btn-primary btn-xs" href="#">M&aacute;s &raquo;</a></p-->
             </div>
           </div>
         </div>

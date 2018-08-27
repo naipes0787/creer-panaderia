@@ -2,13 +2,6 @@
   <div class="container">
       <div class="row">
           <div class="col-xs-12">
-             <ul class="breadcrumb">
-               <li><a href="index.php">Inicio</a></li>
-               <li class="active">Contacto</li>
-               <li><a href="products.php">Nuestros Productos</a></li>
-             </ul>
-          </div>
-          <div class="col-xs-12">
              <h3>Contactanos</h3>
              <hr>
           </div>
