@@ -3,6 +3,8 @@
 creer-panaderia/bower_components/*
 creer-panaderia/node_modules/*
 creer-panaderia/vendor/*
+creer-panaderia/composer.phar
+creer-panaderia/composer.lock
 
 # OS generated files #
 ######################
