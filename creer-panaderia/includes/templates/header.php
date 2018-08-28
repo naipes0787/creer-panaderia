@@ -23,7 +23,6 @@
 			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 				<div class="container">
 					<div class="nav-header">
-						<span class="menu-title">Créer</span>
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 						data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation</span>
@@ -31,6 +30,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 						</button>
+						<a class="navbar-brand" href="index.php">Créer</a>
 					</div>
 					<div id="navbar" class="navbar-principal navbar-collapse collapse">
 						<ul class="nav navbar-nav">
@@ -62,7 +62,7 @@
 							<h4 class="modal-title"><span id="order_label">Tu pedido</span>&nbsp;</h4>
 						</div>
 						<div class="modal-body">
-							<form name="order_form" id="order_form" class="form-horizontal" method="post" action="includes/functions/mail.php">
+							<form name="order_form" id="order_form" class="form-horizontal" method="post" action="mail.php">
 								<div class="form-group has-feedback">
 									<label for="nombre" class="col-sm-2 control-label">
 										Nombre
@@ -102,7 +102,7 @@
 										Pedido
 									</label>
 									<div class="col-sm-4">
-										<textarea class="form-control" style="width:auto!important!" id="text_pedido" name="text_pedido" rows=7 cols=8 required>Aquí podés detallar tu pedido</textarea>
+										<textarea class="form-control" style="width:auto!important!" id="text_pedido" name="text_pedido" rows=7 cols=8 placeholder="Aquí podés detallar tu pedido..." required></textarea>
 		          		</div>
 								</div>
 		          	<div class="form-group">
@@ -139,7 +139,7 @@
 						<div class="col-xs-12 col-sm-2">
 		          <div class="pedido">
 		  					<a type="button" class="btn btn-warning btn-block btn-pedir" onclick="openReservation();">
-		            		&nbsp;&nbsp;<span class="fas fa-concierge-bell" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;Hac&eacute; tu pedido&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		            		<span class="fas fa-concierge-bell icon-btn-pedido" aria-hidden="true"></span>Hac&eacute; tu pedido
 		          	</a>
 		          </div>
 		        </div>

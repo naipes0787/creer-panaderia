@@ -15,8 +15,8 @@
               Urquiza 2240<br>
               Quilmes, Buenos Aires<br>
               ARGENTINA<br>
-              <i class="fa fa-phone"></i>: +5491151093079<br>
-              <i class="fa fa-envelope"></i>: <a href="mailto:pedidospanaderiajl@gmail.com">pedidospanaderiajl@gmail.com</a>
+              <i class="fa fa-phone"></i>&nbsp;1151093079<br>
+              <i class="fa fa-envelope"></i><a href="mailto:pedidospanaderiajl@gmail.com">&nbsp;pedidospanaderiajl@gmail.com</a>
             </address>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 site-footer footer-column-3">

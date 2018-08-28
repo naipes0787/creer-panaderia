@@ -36,7 +36,7 @@ body {
 /******** FIN GLOBAL ********/
 
 /******** HEADER ********/
-span.menu-title{
+a.navbar-brand{
   display: none;
 }
 div.navbar-principal{
@@ -45,8 +45,13 @@ div.navbar-principal{
 div.pedido{
   padding-top: 65%;
 }
+span.icon-btn-pedido{
+  margin-right: 5px;
+}
 a.btn-pedir {
   width: 170%;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 p.slogan{
   padding-top: 30px;
@@ -358,13 +363,10 @@ li.footer-menu-item{
 	margin-left: 37%;
 	padding-top: 5%;
   }
-  span.menu-title{
-    position: absolute;
-	font-size: 1.7em;
-	display: inline-block;
-	text-transform: uppercase;
-	margin-left: 5%;
-	top: 17.5%;
+  a.navbar-brand{
+	 font-size: 1.7em;
+	 display: inline-block;
+	 text-transform: uppercase;
   }
   div.carousel-caption{
     left: 50%;
