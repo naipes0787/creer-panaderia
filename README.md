@@ -9,10 +9,11 @@ Y por último, utilizando bower, instalar bootstrap y font-awesome. Los pasos a 
         npm -v
   3) Una vez instalados, puede ejecutarse en el mismo directorio que se encuentra el archivo package.json la instrucción: npm install
   4) Ahora que bower está instalado, ejecutar: bower install para agregar fontawesome y bootstrap
-  5) Pasos opcionales
+  5) Para instalar PHP en Windows se puede usar esta guía: https://www.youtube.com/watch?v=5Ta1NE1ugqE
+  6) Composer es un instalador de paquetes de php que es útil para incorporar funcionalidades a nuestro sitio web (https://getcomposer.org/). Para poder instalarlo se necesita php (Paso 5). Una vez instalado, para utilizarlo necesitaremos ejecutar en el directorio de nuestro sitio web: php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));" y por último php composer.phar install, esto instalará todos los paquetes que se encuentren en el archivo composer.json
+  7) Pasos opcionales
 		a) Recomiendo utilizar como IDE: Atom (https://atom.io/)
-		b) Para instalar PHP en Windows se puede usar esta guía: https://www.youtube.com/watch?v=5Ta1NE1ugqE
-		c) Composer es un instalador de paquetes de php que puede ser útil para incorporar funcionalidades a nuestro sitio web (https://getcomposer.org/). Para obtenerlo se necesita php (Paso b). Luego, para utilizarlo necesitaremos ejecutar en el directorio de nuestro sitio web: php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));" y por último php composer.phar install , esto instalará todos los paquetes que se encuentren en el archivo composer.json
+		
 
 Para ejecutarlo en un servidor local deberíamos utilizar MAMP (https://www.mamp.info/en/). Descargarlo e instalarlo. El código debería estar en el directorio htdocs del MAMP. Luego iniciamos MAMP y ya podríamos acceder de la siguiente forma: http://localhost/creer-panaderia
 
