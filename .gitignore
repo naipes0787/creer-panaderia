@@ -2,6 +2,7 @@
 ###################
 creer-panaderia/bower_components/*
 creer-panaderia/node_modules/*
+creer-panaderia/vendor/*
 
 # OS generated files #
 ######################
