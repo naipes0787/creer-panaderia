@@ -35,5 +35,12 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <?php
+      $archivo = basename($_SERVER['PHP_SELF']);
+      $pagina = str_replace(".php", "", $archivo);
+      if($pagina == 'gallery'){
+        echo '<script src="js/lightbox.min.js"></script>';
+      }
+    ?>
   </body>
 </html>

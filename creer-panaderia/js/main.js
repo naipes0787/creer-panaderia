@@ -5,8 +5,9 @@ $(function(){
     addClass('active');
   $('body.products .navbar-principal ul li#products-menu-item').
     addClass('active');
+  $('body.gallery .navbar-principal ul li#gallery-menu-item').
+    addClass('active');
 });
-
 $(document).ready(function(){
   $("#mycarousel").carousel( { interval: 4000 } );
   $("#carousel-pause").click(function(){

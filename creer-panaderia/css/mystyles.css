@@ -262,6 +262,12 @@ a.button-contactus{
 }
 /******** FIN CONTACTO ********/
 
+/******** GALLERY ********/
+a.gallery img{
+  margin: 7px;
+}
+/******** FIN GALLERY ********/
+
 /******** FOOTER ********/
 .row-footer {
   margin: 0px auto;

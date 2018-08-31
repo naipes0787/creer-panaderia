@@ -14,7 +14,7 @@
 							<img class="media-object img-thumbnail"
 							 src="img/descuento.png" alt="Descuento">
 							<div class="carousel-caption">
-								<h2 class="carousel-header">Panettone  <span class="label label-danger">Descuento</span> <span class="badge">$20</span></h2>
+								<h2 class="carousel-header">Panettone  <span class="label label-danger">Descuento</span> <span class="badge">$40</span></h2>
 								<p class="carousel-description">Panettone, mejor conocido como pan dulce, con chips de chocolate.
 								Viene en tres tama&ntilde;os: peque&ntilde;o, mediano o grande.
 								El precio publicado es por el peque&ntilde;o. </p>
@@ -25,9 +25,10 @@
                         		src="img/promocion.png" alt="Promoci&oacute;n">
 							<div class="carousel-caption">
 								<h2 class="carousel-header">Combo para cuatro <span class="label label-danger label-xs">Nuevo</span></h2>
-								<p class="carousel-description">En diciembre tenemos un combo de promoci&oacute;n para
-		              cuatro personas: 4 bolas de fraile, 1 cremona, 6 medialunas y
-		              una docena de bizcochos de grasa. Todo por $400!
+								<p class="carousel-description">Tenemos un combo para cuatro
+									personas en promoci&oacute;n: 6 bolas de fraile, 6 medialunas
+									de manteca, 6 donas y medio kilo de bizcochos de grasa.
+									Todo por $400!
 								</p>
 							</div>
 						</div>
@@ -79,7 +80,7 @@
                     <h2 class="media-heading">
                     	Panettone
                     	<span class="label label-danger">Descuento</span>
-                    	<span class="badge">$20</span>
+                    	<span class="badge">$40</span>
                     </h2>
                     <p>Panettone, mejor conocido como pan dulce, con chips de chocolate.
 					Viene en tres tamaños: peque&ntilde;o, mediano o grande.
@@ -99,9 +100,9 @@
                 Combo para cuatro
                 <span class="label label-danger">Nuevo</span>
 							</h2>
-              <p>En diciembre tenemos un combo de promoci&oacute;n para
-              cuatro personas: 4 bolas de fraile, 1 cremona, 6 medialunas y
-              una docena de bizcochos de grasa. Todo por $400! </p>
+              <p>Tenemos un combo para cuatro personas en promoci&oacute;n:
+								6 bolas de fraile, 6 medialunas de manteca, 6 donas y
+								medio kilo de bizcochos de grasa. Todo por $400! </p>
 						</div>
 						<div class="media-right media-middle media-images">
             	<a href="#">

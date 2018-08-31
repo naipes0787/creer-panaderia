@@ -17,6 +17,9 @@
 	    <?php
 	      $archivo = basename($_SERVER['PHP_SELF']);
 	      $pagina = str_replace(".php", "", $archivo);
+				if($pagina == 'gallery'){
+		      echo '<link rel="stylesheet" href="css/lightbox.min.css">';
+		    }
 	    ?>
 		</head>
 		<body class="<?php echo $pagina; ?>">
@@ -47,6 +50,11 @@
 							<li id="products-menu-item">
 								<a class="menu-item" href="products.php">
 									<i class="fas fa-utensils"></i>&nbsp;&nbsp;Nuestros Productos
+								</a>
+							</li>
+							<li id="gallery-menu-item">
+								<a class="menu-item" href="gallery.php">
+									<i class="fas fa-camera-retro"></i>&nbsp;&nbsp;Galer&iacute;a
 								</a>
 							</li>
 						</ul>
