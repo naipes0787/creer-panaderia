@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h3>Nuestros productos</h3>
+        <h3 class="body-title">Nuestros productos</h3>
         <hr>
       </div>
     </div>
-    <div class="row row-content">
+    <div class="row row-content row-less-padding">
       <div class="col-xs-12 col-sm-6 col-md-4">
         <h3 class="product-title">Panader&iacute;a</h3>
         <hr>

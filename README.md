@@ -8,10 +8,11 @@ Y por último, utilizando bower, instalar bootstrap y font-awesome. Los pasos a 
         node -v 
         npm -v
   3) Una vez instalados, puede ejecutarse en el mismo directorio que se encuentra el archivo package.json la instrucción: npm install
-  4) Ahora que bower está instalado, ejecutar: bower install para agregar fontawesome y bootstrap
+  4) Ahora que bower está instalado, ejecutar: bower install para agregar fontawesome, bootstrap y lightbox
   5) Para instalar PHP en Windows se puede usar esta guía: https://www.youtube.com/watch?v=5Ta1NE1ugqE
   6) Composer es un instalador de paquetes de php que es útil para incorporar funcionalidades a nuestro sitio web (https://getcomposer.org/). Para poder instalarlo se necesita php (Paso 5). Una vez instalado, para utilizarlo necesitaremos ejecutar en el directorio de nuestro sitio web: php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));" y por último php composer.phar install, esto instalará todos los paquetes que se encuentren en el archivo composer.json
-  7) Pasos opcionales
+  7) Para la galería se utiliza la biblioteca LightBox, por default ésta viene en inglés. El único texto que debe modificarse al pasarse la biblioteca al hosting se encuentra en lightbox.min.js, se debe modificar: albumLabel:"Image %1 of %2" por albumLabel:"Imagen %1 de %2"
+  8) Pasos opcionales
 		a) Recomiendo utilizar como IDE: Atom (https://atom.io/)
 		
 

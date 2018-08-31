@@ -33,6 +33,13 @@ body {
 .affix {
   top: 100px;
 }
+h3.body-title{
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+div.row-less-padding{
+	padding: 0px 0px 40px 0px!important;
+}
 /******** FIN GLOBAL ********/
 
 /******** HEADER ********/
@@ -226,9 +233,6 @@ input.form-with-icon{
 /******** FIN MODAL PEDIDO ********/
 
 /******** CONTACTO ********/
-div.row-contactus{
-	padding: 0px 0px 40px 0px!important;
-}
 div.contact-class {
   font-size: 1.4em!important;
 }

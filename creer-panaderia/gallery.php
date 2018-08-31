@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h3>Galer&iacute;a</h3>
+        <h3 class="body-title">Galer&iacute;a</h3>
         <hr>
       </div>
     </div>
-    <div class="row row-content">
+    <div class="row row-content row-less-padding">
       <div class="col-xs-12 col-sm-12 gallery">
         <a class="gallery" href="img/gallery/01.jpg" data-lightbox="gallery">
           <img src="img/gallery/thumbs/01.jpg">

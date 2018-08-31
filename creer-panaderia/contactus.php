@@ -2,11 +2,11 @@
   <div class="container">
       <div class="row">
           <div class="col-xs-12">
-             <h3>Contactanos</h3>
+             <h3 class="body-title">Contactanos</h3>
              <hr>
           </div>
       </div>
-      <div class="row row-content row-contactus">
+      <div class="row row-content row-less-padding">
           <div class="col-xs-12 col-sm-4 col-sm-offset-1 contact-class">
             <div class="contact-section">
               <h6>Encontranos en</h6>

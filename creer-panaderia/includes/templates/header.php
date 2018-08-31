@@ -14,13 +14,13 @@
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
 		<link href="css/bootstrap-social.css" rel="stylesheet">
 		<link href="css/mystyles.css" rel="stylesheet">
-	    <?php
-	      $archivo = basename($_SERVER['PHP_SELF']);
-	      $pagina = str_replace(".php", "", $archivo);
-				if($pagina == 'gallery'){
-		      echo '<link rel="stylesheet" href="css/lightbox.min.css">';
-		    }
-	    ?>
+    <?php
+      $archivo = basename($_SERVER['PHP_SELF']);
+      $pagina = str_replace(".php", "", $archivo);
+			if($pagina == 'gallery'){
+	      echo '<link rel="stylesheet" href="css/lightbox.min.css">';
+	    }
+    ?>
 		</head>
 		<body class="<?php echo $pagina; ?>">
 			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -75,7 +75,7 @@
 									<label for="nombre" class="col-sm-2 control-label">
 										Nombre
 									</label>
-									<div class="col-sm-4">
+									<div class="col-sm-6">
 										<input type="input" class="form-control" id="nombre" name="nombre" required>
 		          		</div>
 								</div>
@@ -83,34 +83,16 @@
 									<label for="mail_contacto" class="col-sm-2 control-label">
 										Mail de contacto
 									</label>
-									<div class="col-sm-4">
+									<div class="col-sm-6">
 										<input type="email" class="form-control" id="mail_contacto" name="mail_contacto" required>
 		          		</div>
 								</div>
 								<div class="form-group has-feedback">
-		          		<label for="date" class="col-sm-2 control-label">
-		          			D&iacute;a de entrega
-		          		</label>
-		          		<div class="col-sm-5">
-										<input type="date" class="form-control datetime-form form-with-icon" id="date" name="date" required>
-		         				<i class="fas fa-calendar-alt"></i>
-		          		</div>
-		          	</div>
-								<div class="form-group has-feedback">
-		          		<label for="date" class="col-sm-2 control-label">
-		          			Horario de entrega
-		          		</label>
-		          		<div class="col-sm-4">
-										<input type="time" class="form-control datetime-form form-with-icon" id="time" name="time" min="9:00" max="18:00" step="1800" required>
-										<i class="far fa-clock"></i>
-		          		</div>
-		          	</div>
-								<div class="form-group has-feedback">
 									<label for="nombre" class="col-sm-2 control-label">
 										Pedido
 									</label>
-									<div class="col-sm-4">
-										<textarea class="form-control" style="width:auto!important!" id="text_pedido" name="text_pedido" rows=7 cols=8 placeholder="Aquí podés detallar tu pedido..." required></textarea>
+									<div class="col-sm-8">
+										<textarea class="form-control" id="text_pedido" name="text_pedido" rows=8 placeholder="Aquí podés detallar tu pedido..." required></textarea>
 		          		</div>
 								</div>
 		          	<div class="form-group">
@@ -147,7 +129,7 @@
 						<div class="col-xs-12 col-sm-2">
 		          <div class="pedido">
 		  					<a type="button" class="btn btn-warning btn-block btn-pedir" onclick="openReservation();">
-		            		<span class="fas fa-concierge-bell icon-btn-pedido" aria-hidden="true"></span>Hac&eacute; tu pedido
+		            		<span class="fas fa-concierge-bell icon-btn-pedido" aria-hidden="true"></span>Ped&iacute; presupuesto
 		          	</a>
 		          </div>
 		        </div>
