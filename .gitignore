@@ -5,6 +5,7 @@ creer-panaderia/node_modules/*
 creer-panaderia/vendor/*
 creer-panaderia/composer.phar
 creer-panaderia/composer.lock
+creer-panaderia/package-lock.json
 
 # OS generated files #
 ######################

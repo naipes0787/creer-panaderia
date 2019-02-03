@@ -9,7 +9,7 @@
     <title>Cr&eacute;er Panader&iacute;a</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans">
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
 		<link href="css/bootstrap-social.css" rel="stylesheet">
@@ -17,6 +17,9 @@
 	    <?php
 	      $archivo = basename($_SERVER['PHP_SELF']);
 	      $pagina = str_replace(".php", "", $archivo);
+				if($pagina == 'gallery'){
+		      echo '<link rel="stylesheet" href="css/lightbox.min.css">';
+		    }
 	    ?>
 		</head>
 		<body class="<?php echo $pagina; ?>">
@@ -49,10 +52,16 @@
 									<i class="fas fa-utensils"></i>&nbsp;&nbsp;Nuestros Productos
 								</a>
 							</li>
+							<li id="gallery-menu-item">
+								<a class="menu-item" href="gallery.php">
+									<i class="fas fa-camera-retro"></i>&nbsp;&nbsp;Galer&iacute;a
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
+			<?php include_once 'order.php'; ?>
 			<div id="reserveModal" class="modal fade" role="dialog">
 				<div class="modal-dialog">
 					<!-- Modal content-->
@@ -121,7 +130,7 @@
 								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
-								Por favor, <a href="tel:+5491151093079" class="alert-link">llamanos</a> en caso de que tengas alguna consulta.
+								Podés <a href="tel:+5491151093079" class="alert-link">llamarnos</a> en caso de que tengas alguna consulta al 119999999
 							</div>
 						</div>
 					</div>

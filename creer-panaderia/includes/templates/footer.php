@@ -7,6 +7,7 @@
               <li class="footer-menu-item"><i class="fas fa-chevron-right"></i><a href="index.php"> Inicio</a></li>
               <li class="footer-menu-item"><i class="fas fa-chevron-right"></i><a href="contactus.php"> Contacto</a></li>
               <li class="footer-menu-item"><i class="fas fa-chevron-right"></i><a href="products.php"> Nuestros Productos</a></li>
+              <li class="footer-menu-item"><i class="fas fa-chevron-right"></i><a href="gallery.php"> Galer&iacute;a</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 site-footer footer-column-2">
@@ -35,5 +36,12 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <?php
+      $archivo = basename($_SERVER['PHP_SELF']);
+      $pagina = str_replace(".php", "", $archivo);
+      if($pagina == 'gallery'){
+        echo '<script src="js/lightbox.min.js"></script>';
+      }
+    ?>
   </body>
 </html>
