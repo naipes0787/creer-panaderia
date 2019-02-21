@@ -223,6 +223,64 @@ input.form-with-icon{
   display: inline-block;
   width: 80%;
 }
+/* Tabla precios */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+div.products-category{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.btn-products{
+  background-color: #303f9f;
+  color: #9d9d9d;
+  border-color: #9d9d9d;
+  padding: 10px;
+}
+
+.btn-products:hover{
+  color: #FFFFFF;
+}
+
+.contenedor-productos{
+  padding: 5px;
+  margin-left: 30px;
+  display: none;
+}
+
+input.products-input{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 /******** FIN MODAL PEDIDO ********/
 
 /******** CONTACTO ********/
