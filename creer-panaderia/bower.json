@@ -21,7 +21,6 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "font-awesome": "^5.2.0",
-    "lightbox2": "lightbox#^2.10.0"
+    "font-awesome": "^5.7.0"
   }
 }

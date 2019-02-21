@@ -1,4 +1,5 @@
 <?php include_once 'includes/templates/header.php'; ?>
+
 	<div class="container">
 		<div class="row row-content">
 			<div class="col-xs-12">
